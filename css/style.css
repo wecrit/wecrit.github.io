@@ -42,11 +42,10 @@ h4 {
 	letter-spacing: 2px;
 }
 
-.items {
+.details {
 	position: relative;
 	margin: auto;
 	width: 80%;
-
 }
 
 .lore_entry{
@@ -65,6 +64,7 @@ h4 {
 	border-radius: 5px;
 	padding: 10px;
 	background-color: #5F5743;
+	display: none;
 }
 
 .item_text {
@@ -84,6 +84,43 @@ h4 {
     color: #FF5733;
     font-size: 12pt;
     font-weight: bold;
+}
+
+.magic_items a:link,
+.magic_items a:visited,
+.magic_items a:hover {
+	color: #FF5733;
+}
+
+.prof {
+	text-align: center;
+	font-family: monospace;
+    letter-spacing: 2px;
+    color: #f333ff;
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+.prof a:link,
+.prof a:visited,
+.prof a:hover {
+	color: #f333ff;
+}
+
+
+.racials {
+	text-align: center;
+	font-family: monospace;
+    letter-spacing: 2px;
+    color: #33dbff;
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+.racials a:link,
+.racials a:visited,
+.racials a:hover {
+	color: #33dbff;
 }
 
 .party_name {
@@ -106,6 +143,11 @@ h4 {
 
 .field {
 	color: #f4cf32;
+}
+
+.subfield {
+	color: #33ffd1;
+	font-style: italic;
 }
 
 .menu {
