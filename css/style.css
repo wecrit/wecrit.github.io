@@ -65,6 +65,7 @@ h4 {
 	border-radius: 5px;
 	padding: 10px;
 	background-color: #5F5743;
+	display: none;
 }
 
 .item_text {
@@ -84,6 +85,12 @@ h4 {
     color: #FF5733;
     font-size: 12pt;
     font-weight: bold;
+}
+
+.magic_items a:link,
+.magic_items a:visited,
+.magic_items a:hover {
+	color: #FF5733;
 }
 
 .party_name {
