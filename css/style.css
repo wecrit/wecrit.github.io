@@ -42,11 +42,10 @@ h4 {
 	letter-spacing: 2px;
 }
 
-.items {
+.details {
 	position: relative;
 	margin: auto;
 	width: 80%;
-
 }
 
 .lore_entry{
@@ -93,6 +92,37 @@ h4 {
 	color: #FF5733;
 }
 
+.prof {
+	text-align: center;
+	font-family: monospace;
+    letter-spacing: 2px;
+    color: #f333ff;
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+.prof a:link,
+.prof a:visited,
+.prof a:hover {
+	color: #f333ff;
+}
+
+
+.racials {
+	text-align: center;
+	font-family: monospace;
+    letter-spacing: 2px;
+    color: #33dbff;
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+.racials a:link,
+.racials a:visited,
+.racials a:hover {
+	color: #33dbff;
+}
+
 .party_name {
 	font-size: 18pt;
 	font-family: Courier;
@@ -113,6 +143,11 @@ h4 {
 
 .field {
 	color: #f4cf32;
+}
+
+.subfield {
+	color: #33ffd1;
+	font-style: italic;
 }
 
 .menu {
