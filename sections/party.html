@@ -47,7 +47,7 @@
                              
                 <img class="avatar" src="../src/L_Token.png" /> 
                 <p class="bio"> 
-                    Level 5 Half-elf Warlock<br />
+                    Level 6 Warlock<br />
                     <b class="field">Alignment:</b> Lawful<br />
                     <b class="field">Title:</b> Infernal Scribe
                 </p>
@@ -59,9 +59,43 @@
                 </p> 
 
 
-            <div class="items">
-                <p class="magic_items">Magical Items</p>
-                    <div class="item">
+            <div class="details">
+
+                    <p class="racials"><a href="#L" onclick="document.getElementById('racials-L').style.display === 'block' ? document.getElementById('racials-L').style.display = 'none' : document.getElementById('racials-L').style.display = 'block'">Racial Abilities</a></p>
+
+                    <div class="item" id="racials-L">
+                        <b class="field">Race:</b> Half-elf 
+                        <br />
+                        <br />
+                        <b class="field">Abilities</b>
+                        <ul>
+                            <li><span class="subfield">Darkvision:</span> 60 ft.</li>
+                            <li><span class="subfield">Fey Ancestry:</span> You have advantage on saving throws against being charmed, and magic can't put you to sleep. </li>
+                            <li><span class="subfield">Skill Versatility:</span> You gain proficiency in two skills of your choice.</li>
+                        </ul>
+                    </div>
+
+                    <p class="prof"><a href="#L" onclick="document.getElementById('prof-L').style.display === 'block' ? document.getElementById('prof-L').style.display = 'none' : document.getElementById('prof-L').style.display = 'block'">Proficiencies</a></p>
+
+                     <div class="item" id="prof-L">
+                        <b class="field">Tools</b>
+                        <ul>
+                            <li><span class="subfield">Playing Cards:</span> +3</li>
+                            <li><span class="subfield">Dulcimer:</span> +5</li>
+                        </ul> 
+                        <b class="field">Skills</b>
+                        <ul>
+                            <li><span class="subfield">Arcana:</span> +3</li>
+                            <li><span class="subfield">Deception:</span> +7</li>
+                            <li><span class="subfield">Insight:</span> +4</li>
+                            <li><span class="subfield">Investigation:</span> +3</li>
+                            <li><span class="subfield">Perception:</span> +4</li>
+                                <li><span class="subfield">Persuasion:</span> +7</li>
+                        </ul>
+                    </div>
+
+                    <p class="magic_items"><a href="#L" onclick="document.getElementById('items-L').style.display === 'block' ? document.getElementById('items-L').style.display = 'none' : document.getElementById('items-L').style.display = 'block'">Magical Items</a></p>
+                    <div class="item" id="items-L">
                         
                         
                             <a href="#L" onclick="document.getElementById('BlackPearl').style.display === 'block' ? document.getElementById('BlackPearl').style.display = 'none' : document.getElementById('BlackPearl').style.display = 'block'">Black Pearl Band</a>
@@ -73,27 +107,13 @@
 
                    <br />
                    
-                        
-                        
-                        <a href="#L" onclick="document.getElementById('BootsWinterlands').style.display === 'block' ? document.getElementById('BootsWinterlands').style.display = 'none' : document.getElementById('BootsWinterlands').style.display = 'block'">Boots of the Winterlands</a>
-                        
-
-                        <div class="item_text" id="BootsWinterlands" style="display:none;">
-                            These furred boots are snug and feel quite warm. While you wear them, you gain the following benefits:
-                            <ul>
-                                <li>You have resistance to cold damage.</li>
-                                <li>You ignore difficult terrain created by ice or snow.</li>
-                                <li>
-                                You can tolerate temperatures as low as -50 degrees Fahrenheit without any additional protection. If you wear heavy clothes, you can tolerate temperatures as low as -100 degrees Fahrenheit.</li>
-                            </ul>
-                        </div>
-
-                        <br />
 
                         <a href="#L" onclick="document.getElementById('GlassStaff').style.display === 'block' ? document.getElementById('GlassStaff').style.display = 'none' : document.getElementById('GlassStaff').style.display = 'block'">Glass Staff of Defense</a>
 
                         <div class="item_text" id="GlassStaff" style="display:none;">
-                            <b>+1 Quarterstaff.</b> This beautiful glass staff is a smooth, dark amber rod which protects its wielder from harm, and originally belonged to the nefarious criminal Glasstaff. <br /><br />
+                            <b>+1 Quarterstaff.</b> This beautiful glass staff is a smooth, dark amber rod which protects its wielder from harm, and originally belonged to the nefarious criminal Glasstaff. 
+                            <br />
+                            <br />
                             While attuned to this weapon, you get a +1 bonus to your spell attack, and a +1 bonus to your AC.
                             <br />
                             <br />
@@ -113,21 +133,60 @@
             <div class="profile" id="Multimodal"><h3>Multimodal</h3>                
                 <img class="avatar" src="../src/Multi_Token.png" /> 
                 <p class="bio"> 
-                    Level 5 Firbolg Druid [<a href="http://homebrewery.naturalcrit.com/share/H1Qw0rYrhg">Circle of Regrowth</a>]<br />
+                    Level 5 Druid [<a href="http://homebrewery.naturalcrit.com/share/H1Qw0rYrhg">Circle of Regrowth</a>]<br />
+                    Level 1 Protection Fighter<br />
                     <b class="field">Alignment:</b> Good<br />
                     <b class="field">Title:</b> The Lifegiver
                 </p>
 
-                <div class="items">
-                    <p class="magic_items">Magical Items</p>
-                    <div class="item">
+                <div class="details">
+                    <p class="racials"><a href="#Multimodal" onclick="document.getElementById('racials-Multi').style.display === 'block' ? document.getElementById('racials-Multi').style.display = 'none' : document.getElementById('racials-Multi').style.display = 'block'">Racial Abilities</a></p>
+
+                    <div class="item" id="racials-Multi">
+                        <b class="field">Race:</b> Firbolg 
+                        <br />
+                        <br />
+                        <b class="field">Abilities</b>
+                        <ul>
+                            <li><span class="subfield">Darkvision:</span> 60 ft.</li>
+                            <li><span class="subfield">Firbolg Magic:</span> You can cast <i>detect magic</i> and <i>disguise self</i> with this trait. With firbolg disguise self, you can appear up to 3 feet shorter than normal. Replenished after a short or long rest.</li>
+                            <li><span class="subfield">Hidden Steps:</span> As a bonus action, you can magically turn invisible until the start of your next turn, or until you make yourself known (attack, deal damage, etc.). Can be used again after a short or long rest.</li>
+                            <li><span class="subfield">Powerful Build:</span> You count as one size larger when determining your carrying capacity and the weight of objects you can move.</li>
+                            <li><span class="subfield">Speech of Beasts and Plants:</span> You have the ability to communicate in a limited manner with beasts and plants. They can understand the meaning of your words, though you have no special ability to understand them in return. Gives advantage on Charisma checks to influence them.</li>
+                        </ul>
+
+                    </div>
+
+                    <p class="prof"><a href="#Multimodal" onclick="document.getElementById('prof-Multi').style.display === 'block' ? document.getElementById('prof-Multi').style.display = 'none' : document.getElementById('prof-Multi').style.display = 'block'">Proficiencies</a></p>
+
+                    <div class="item" id="prof-Multi">
+                        <b class="field">Tools</b>
+                        <ul>
+                            <li><span class="subfield">Herbalism Kit:</span> +3</li>
+                            <li><span class="subfield">Woodcutter's Tools:</span> +4</li>
+                        </ul> 
+                        <b class="field">Skills</b>
+                        <ul>
+                            <li><span class="subfield">Animal Handling:</span> +7</li>
+                            <li><span class="subfield">Insight:</span> +7</li>
+                            <li><span class="subfield">Medicine:</span> +7</li>
+                            <li><span class="subfield">Religion:</span> +3</li>
+                            <li><span class="subfield">Survival:</span> +7</li>
+                        </ul>
+                    </div>
+
+                    <p class="magic_items"><a href="#Multimodal" onclick="document.getElementById('items-Multi').style.display === 'block' ? document.getElementById('items-Multi').style.display = 'none' : document.getElementById('items-Multi').style.display = 'block'">Magical Items</a></p>
+
+                    <div class="item" id="items-Multi">
                         
                         
                             <a href="#Multimodal" onclick="document.getElementById('ElderBranch').style.display === 'block' ? document.getElementById('ElderBranch').style.display = 'none' : document.getElementById('ElderBranch').style.display = 'block'">The Elder Branch</a>
                         
 
                         <div class="item_text" id="ElderBranch" style="display:none;">
-                            <b>+1 Quarterstaff.</b> This staff appears to be a gnarled, discarded branch of ashwood which curls in a helix at the end.<br /><br />
+                            <b>+1 Quarterstaff.</b> This staff appears to be a gnarled, discarded branch of ashwood which curls in a helix at the end.
+                            <br />
+                            <br />
                             While attuned to this weapon, you get a +1 bonus to your spell attack, and your speed cannot be reduced by magical difficult terrain.
                         </div>
 
@@ -139,7 +198,9 @@
                         
 
                         <div class="item_text" id="ViridianWard" style="display:none;">
-                            <b>+1 Shield.</b> This wooden shield is a beautifully laquered dark wood shield emblazoned with a vibrant viridian elk icon, and engraved with fine Elvish runes.<br /><br />
+                            <b>+1 Shield.</b> This wooden shield is a beautifully laquered dark wood shield emblazoned with a vibrant viridian elk icon, and engraved with fine Elvish runes.
+                            <br />
+                            <br />
                             While attuned to this item, you can use its power to shield your allies. As a reaction when a creature you can see within 60 feet takes damage from a spell, you can grant that creature resistance to the triggering damage. You gain a number of hit points equal to the damage prevented this way. One you use this ability, you cannot do so again until the next dawn.
                         </div>
 
@@ -154,21 +215,63 @@
             <div class="profile" id="Nassirra"><h3>Nassirra</h3>                
                 <img class="avatar" src="../src/Nassirra_Token.png" /> 
                 <p class="bio"> 
-                    Level 5 Prowler Tabaxi Ranger<br />
+                    Level 5 Ranger<br />
+                    Level 1 Rogue<br />
                     <b class="field">Alignment:</b> Chaotic good <br />
                     <b class="field">Title:</b> Reach of Reclamation
                 </p>
 
-                <div class="items">
-                    <p class="magic_items">Magical Items</p>
-                    <div class="item">
+
+                <div class="details">
+
+                    <p class="racials"><a href="#Nassirra" onclick="document.getElementById('racials-Nassirra').style.display === 'block' ? document.getElementById('racials-Nassirra').style.display = 'none' : document.getElementById('racials-Nassirra').style.display = 'block'">Racial Abilities</a></p>
+
+                    <div class="item" id="racials-Nassirra">
+                        <b class="field">Race:</b> Prowler Tabaxi <br />
+                        <br />
+                        <br />
+                        <b class="field">Abilities</b>
+                        <ul>
+                            <li><span class="subfield">Darkvision:</span> 60 ft.</li>
+                            <li><span class="subfield">Feline Agility:</span> Your reflexes and agility allow you to move with a burst of speed. When you move on your turn in combat, you can double your speed until the end of the turn. Once you use this trait, you can't use it again until you move 0 feet on your one of your turns. </li>
+                            <li><span class="subfield">Cat's Claws:</span> Because of your claws, you have a climbing speed of 20 feet. In addition, your claws are natrual weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.</li>
+                            <li><span class="subfield">Cat's Talent:</span> You have proficiency in the Perception and Stealth skills.</li>
+                        </ul>
+                    </div>
+
+                    <p class="prof"><a href="#Nassirra" onclick="document.getElementById('prof-Nassirra').style.display === 'block' ? document.getElementById('prof-Nassirra').style.display = 'none' : document.getElementById('prof-Nassirra').style.display = 'block'">Proficiencies</a></p>
+
+                     <div class="item" id="prof-Nassirra">
+                        <b class="field">Tools</b>
+                        <ul>
+                            <li><span class="subfield">Thieves' Tools:</span> <b>+10</b></li>
+                        </ul> 
+                        <b class="field">Skills</b>
+                        <ul>
+                            <li><span class="subfield">Animal Handling:</span> +4</li>
+                            <li><span class="subfield">Deception:</span> +4</li>
+                            <li><span class="subfield">Insight:</span> +4</li>
+                            <li><span class="subfield">Perception:</span> +4</li>
+                            <li><span class="subfield">Sleight of Hand:</span> +7</li>
+                            <li><span class="subfield">Stealth:</span> <b>+10</b></li>
+                        </ul>
+                    </div>
+
+                    
+
+
+                    <p class="magic_items"><a href="#Nassirra" onclick="document.getElementById('items-Nassirra').style.display === 'block' ? document.getElementById('items-Nassirra').style.display = 'none' : document.getElementById('items-Nassirra').style.display = 'block'">Magical Items</a></p>
+
+                    <div class="item" id="items-Nassirra">
                         
                         
                         <a href="#Nassirra" onclick="document.getElementById('CloakScarletVigil').style.display === 'block' ? document.getElementById('CloakScarletVigil').style.display = 'none' : document.getElementById('CloakScarletVigil').style.display = 'block'">Cloak of the Scarlet Vigil</a>
                         
 
                         <div class="item_text" id="CloakScarletVigil" style="display:none;">
-                            This luminescent white cape is adorned with the crimson emblem of the Scarlet Vigil.<br /><br />
+                            This luminescent white cape is adorned with the crimson emblem of the Scarlet Vigil.
+                            <br />
+                            <br />
                             While attuned to this item, you can cast the <i>feather fall</i> spell on yourself as a reaction at will.
                         </div>
 
@@ -195,11 +298,21 @@
 
                         <br />
 
+                        <a href="#Nassirra" onclick="document.getElementById('TreantVigor').style.display === 'block' ? document.getElementById('TreantVigor').style.display = 'none' : document.getElementById('TreantVigor').style.display = 'block'">Sash of Treant Vigor</a>
+
+                        <div class="item_text" id="TreantVigor" style="display:none;">
+                            While attuned to this sash, your Constitution score becomes 17. If your Constitution score is already 17 or higher, the sash has no effect.
+                        </div>
+
+                        <br />
+
                         <a href="#Nassirra" onclick="document.getElementById('ArrowDragonSlaying').style.display === 'block' ? document.getElementById('ArrowDragonSlaying').style.display = 'none' : document.getElementById('ArrowDragonSlaying').style.display = 'block'">Arrow of Minor Dragon Slaying</a>
                         
 
                         <div class="item_text" id="ArrowDragonSlaying" style="display:none;">
-                            If a dragon creature takes damage from the arrow, the creature must make a DC 17 Constitution saving throw, taking an extra 3d10 piercing damage on a failed save, or half as much extra damage on a successful one. <br /><br />
+                            If a dragon creature takes damage from the arrow, the creature must make a DC 17 Constitution saving throw, taking an extra 3d10 piercing damage on a failed save, or half as much extra damage on a successful one. 
+                            <br />
+                            <br />
                             Once the arrow deals its extra damage to a creature, it becomes a nonmagical arrow.
                             
                         </div>                     
@@ -211,15 +324,65 @@
             <div class="profile" id="Rasputin"><h3>Rasputin Frostbeard</h3>                
                 <img class="avatar" src="../src/Rasputin_Token.png" /> 
                 <p class="bio"> 
-                    Level 5 Arctic Dwarf Monk<br />
+                    Level 6 Monk<br />
                     <b class="field">Alignment:</b> Lawful<br />
                     <b class="field">Title:</b> Maw of the Demon Lord
                 </p>
-                <div class="items">
-                    <p class="magic_items">Magical Items</p>
+                <div class="details">
 
-                    <div class="item">
+                    <p class="racials"><a href="#Rasputin" onclick="document.getElementById('racials-Rasputin').style.display === 'block' ? document.getElementById('racials-Rasputin').style.display = 'none' : document.getElementById('racials-Rasputin').style.display = 'block'">Racial Abilities</a></p>
+
+                    <div class="item" id="racials-Rasputin">
+                        <b class="field">Race:</b> Arctic Dwarf
+                        <br />
+                        <br />
+                        <b class="field">Abilities</b>
+                        <ul>
+                            <li><span class="subfield">Darkvision:</span> 60 ft.</li>
+                            <li><span class="subfield">Dwarven Resilience:</span> You have advantage on saving throws against poison, and you have resistance against point damage. </li>
+                            <li><span class="subfield">Dwarven Combat Training:</span> You have proficiency with the battleaxe, handaxe, light hammer, and warhammer.</li>
+                            <li><span class="subfield">Tool Proficiency:</span> You gain proficiency with the artisan's tools of your choice: smith's tools, brewer's supplies, or mason's tools.</li>
+                            <li><span class="subfield">Stonecunning:</span> Whenever you make an Intelligence (History) check related to the origin of stonework, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus.</li>
+                        </ul> 
+                    </div>
+
+                    <p class="prof"><a href="#Rasputin" onclick="document.getElementById('prof-Rasputin').style.display === 'block' ? document.getElementById('prof-Rasputin').style.display = 'none' : document.getElementById('prof-Rasputin').style.display = 'block'">Proficiencies</a></p>
+
+                    <div class="item" id="prof-Rasputin">
+                        <b class="field">Tools</b>
+                        <ul>
+                            <li><span class="subfield">Brewing:</span> +4</li>
+                            <li><span class="subfield">Dragonchess:</span> +3</li>
+                            <li><span class="subfield">Smithing:</span> +2</li>
+                        </ul> 
+                        <b class="field">Skills</b>
+                        <ul>
+                            <li><span class="subfield">Acrobatics:</span> +7</li>
+                            <li><span class="subfield">Religion:</span> +3</li>
+                            <li><span class="subfield">Stealth:</span> +7</li>
+                            <li><span class="subfield">Survival:</span> +4</li>
+                        </ul>
+                    </div>
+
+                    <p class="magic_items"><a href="#Rasputin" onclick="document.getElementById('items-Rasputin').style.display === 'block' ? document.getElementById('items-Rasputin').style.display = 'none' : document.getElementById('items-Rasputin').style.display = 'block'">Magical Items</a></p>
+
+                    <div class="item" id="items-Rasputin">
                         
+
+                        <a href="#Rasputin" onclick="document.getElementById('GoldenStar').style.display === 'block' ? document.getElementById('GoldenStar').style.display = 'none' : document.getElementById('GoldenStar').style.display = 'block'">Golden Star</a>
+                        
+
+                        <div class="item_text" id="GoldenStar" style="display:none;">
+                            This small throwing star has a peculiar design. It appears as a shimmering, golden, 5-pronged star with a hole in the middle. This hole is spanned by two thin, dark leather strips.
+                            <br />
+                            <br />
+                            You get a <b>+1 bonus</b> to attack and damage rolls made with this magic weapon. Whenever you make a ranged weapon attack with this weapon, it immediately returns to your hand after it hits or misses.
+                            <br />
+                            <br />
+                            In addition, you can use an action to hold the star aloft to gain a magical boon. For 1 minute, you have resistance to all damage, and your movement becomes ethereal, allowing you to move through solid walls and the spaces of hostile creatures. For this duration, you leave a trail of glowing, slowly-fading after-images in all the colors of the rainbow, and the first time you move through the space of any creature on your turn, it must succeed on a DC 14 Dexterity saving throw, or take 2d6 radiant damage. Once you use this feature of the golden star, its golden sheen is lost, becoming a dull bronze in color, and this feature can never be used again.
+                        </div>
+
+                   <br />
                         
                         <a href="#Rasputin" onclick="document.getElementById('BloodyBindings').style.display === 'block' ? document.getElementById('BloodyBindings').style.display = 'none' : document.getElementById('BloodyBindings').style.display = 'block'">Bloody Bindings</a>
                         
@@ -237,19 +400,14 @@
 
                         <div class="item_text" id="RobesVitality" style="display:none;">
                             These relatively simple white robes are adorned with small red, orange, and violet highlights. Wearing these robes gives you a sense of energy and vitality.
-                            <br /><br />
+                            <br />
+                            <br />
                             While attuned to these robes, as long as you are not wearing armor nor wielding a shield, you gain a +1 bonus to your AC.
-                            <br /><br />
+                            <br />
+                            <br />
                             In addition, you gain access to the following Ki ability: <b>Vital Wind:</b> as an action, you can expend 1 Ki point to restore hit points equal to 2d4+ your Wisdom modifier.
                         </div>
 
-                        <br />
-
-                        <a href="#Rasputin" onclick="document.getElementById('TreantVigor').style.display === 'block' ? document.getElementById('TreantVigor').style.display = 'none' : document.getElementById('TreantVigor').style.display = 'block'">Sash of Treant Vigor</a>
-
-                        <div class="item_text" id="TreantVigor" style="display:none;">
-                            While attuned to this sash, your Constitution score becomes 17. If your Constitution score is already 17 or higher, the sash has no effect.
-                        </div>
                     </div>
                 </div>
             </div>
@@ -257,34 +415,88 @@
             <div class="profile" id="Un-Kell"><h3>Ün-Kell</h3>                
                 <img class="avatar" src="../src/UnKell_Token.png" /> 
                 <p class="bio"> 
-                    Level 5 Goliath Barbarian<br />
+                    Level 6 Barbarian<br />
                     <b class="field">Alignment:</b> Good<br />
                     <b class="field">Title:</b> Visage of Ralthok
                 </p>
 
 
-            <div class="items">
-                <p class="magic_items">Magical Items</p>
-                    <div class="item">
+            <div class="details">
+
+                <p class="racials"><a href="#Un-Kell" onclick="document.getElementById('racials-Un-Kell').style.display === 'block' ? document.getElementById('racials-Un-Kell').style.display = 'none' : document.getElementById('racials-Un-Kell').style.display = 'block'">Racial Abilities</a></p>
+
+                    <div class="item" id="racials-Un-Kell">
+                        <b class="field">Race:</b> Goliath 
+                        <br />
+                        <br />
+                        <b class="field">Abilities</b>
+                        <ul>
+                            <li><span class="subfield">Stone's Endurance:</span> You can focus yourself to occasionally shrug off an injury. When you take damage, you can use your reaction to roll a d12. Add your constitution modifier to the number rolled, and reduce damage by that total. After you use this trait, you can't use it again until you finish a short or long rest.</li>
+                            <li><span class="subfield">Powerful Build:</span> You count as one size larger when determining your carrying capacity and the weight of objects you can move.</li>
+                            <li><span class="subfield">Mountain Born:</span> You're acclimated to high altitude, including elevations about 20,000 feet. You're also naturally adapted to cold climates.</li>
+                        </ul>
+                    </div>
+
+                    <p class="prof"><a href="#Un-Kell" onclick="document.getElementById('prof-Un-Kell').style.display === 'block' ? document.getElementById('prof-Un-Kell').style.display = 'none' : document.getElementById('prof-Un-Kell').style.display = 'block'">Proficiencies</a></p>
+
+                    <div class="item" id="prof-Un-Kell">
+                        <b class="field">Tools</b>
+                        <ul>
+                            <li><span class="subfield">Disguise Kit:</span> +1</li>
+                            <li><span class="subfield">Thieves' Tools:</span> +5</li>
+                        </ul> 
+                        <b class="field">Skills</b>
+                        <ul>
+                            <li><span class="subfield">Athletics:</span> +8</li>
+                            <li><span class="subfield">Perception:</span> +3</li>
+                            <li><span class="subfield">Sleight of Hand:</span> +5</li>
+                            <li><span class="subfield">Stealth:</span> +5</li>
+                            <li><span class="subfield">Survival:</span> +3</li>
+                        </ul>
+                    </div>
+
+                
+
+                <p class="magic_items"><a href="#Un-Kell" onclick="document.getElementById('items-Un-Kell').style.display === 'block' ? document.getElementById('items-Un-Kell').style.display = 'none' : document.getElementById('items-Un-Kell').style.display = 'block'">Magical Items</a></p>
+
+                    <div class="item" id="items-Un-Kell">
                         
                         
                         <a href="#Un-Kell" onclick="document.getElementById('CharmVictory').style.display === 'block' ? document.getElementById('CharmVictory').style.display = 'none' : document.getElementById('CharmVictory').style.display = 'block'">Charm of Victory</a>
                         
 
                         <div class="item_text" id="CharmVictory" style="display:none;">
-                           This tiny charm has been created to magically bolster your resolve when victorious over your foes, and is shaped like a small, red fist.<br /><br />
+                           This tiny charm has been created to magically bolster your resolve when victorious over your foes, and is shaped like a small, red fist.
+                           <br />
+                           <br />
                            Whenever you kill a creature while attuned to this item, you gain temporary hit points equal to your proficiency bonus.
                         </div>
-
                    <br />
                    
+
+                    <a href="#Un-Kell" onclick="document.getElementById('BootsWinterlands').style.display === 'block' ? document.getElementById('BootsWinterlands').style.display = 'none' : document.getElementById('BootsWinterlands').style.display = 'block'">Boots of the Winterlands</a>
+                        
+
+                        <div class="item_text" id="BootsWinterlands" style="display:none;">
+                            These furred boots are snug and feel quite warm. While you wear them, you gain the following benefits:
+                            <ul>
+                                <li>You have resistance to cold damage.</li>
+                                <li>You ignore difficult terrain created by ice or snow.</li>
+                                <li>
+                                You can tolerate temperatures as low as -50 degrees Fahrenheit without any additional protection. If you wear heavy clothes, you can tolerate temperatures as low as -100 degrees Fahrenheit.</li>
+                            </ul>
+                        </div>
+
+                        <br />
                         
                         
                         <a href="#Un-Kell" onclick="document.getElementById('CloakArachnids').style.display === 'block' ? document.getElementById('CloakArachnids').style.display = 'none' : document.getElementById('CloakArachnids').style.display = 'block'">Cloak of Arachnids</a>
                         
 
                         <div class="item_text" id="CloakArachnids" style="display:none;">
-                            This dark cloak has a faint greenish hue, and has intricate gold embroidery on pauldron and back, which is emblematic of spiders.<br /><br />
+                            This dark cloak has a faint greenish hue, and has intricate gold embroidery on pauldron and back, which is emblematic of spiders.
+                            <br />
+                            <br />
                             While wearing this cloak, when a creature within 5 feet of you that you can see hits you with an attack, you can use your reaction to spray the target with a plume of poisonous vapor. The target must succeed on a <b>DC 13 Constitution</b> saving throw or take 2d6 poison damage and is poisoned until the start of your next turn. On a successful save, the target takes half as much damage and is not poisoned.
                         </div>
 
@@ -299,17 +511,6 @@
                             When this weapon hits, it deals an additional 1d6 necrotic damage to the target, and an equal amount of cold damage to its wielder.
                         </div>
 
-                        <br />
-
-                        <a href="#Un-Kell" onclick="document.getElementById('Lawblade').style.display === 'block' ? document.getElementById('Lawblade').style.display = 'none' : document.getElementById('Lawblade').style.display = 'block'">Lawblade</a>
-
-                        <div class="item_text" id="Lawblade" style="display:none;">
-                            <b>+1 Longsword.</b> This bright, silvery longsword is adorned with the oath of the Argent Council. The craftsmanship of this blade is meticulous, and the details are breathtaking.
-                            <br />
-                            <br />
-                            You cannot be disarmed of this weapon while attuned to it.
-                        </div>
-
                     </div>
 
             </div>
@@ -319,22 +520,53 @@
             <div class="profile" id="Zieg"><h3>Zieg</h3>                
                 <img class="avatar" src="../src/Zieg_Token.png" /> 
                 <p class="bio"> 
-                    Level 5 Triton Cleric<br />
+                    Level 6 Cleric<br />
                     <b class="field">Alignment:</b> Lawful good <br />
                     <b class="field">Title:</b> Lantern of Hope
                 </p>
 
-                                <div class="items">
-                    <p class="magic_items">Magical Items</p>
-                    <div class="item">
+                <div class="details">
+
+                    <p class="racials"><a href="#Zieg" onclick="document.getElementById('racials-Zieg').style.display === 'block' ? document.getElementById('racials-Zieg').style.display = 'none' : document.getElementById('racials-Zieg').style.display = 'block'">Racial Abilities</a></p>
+
+                    <div class="item" id="racials-Zieg">
+                        <b class="field">Race:</b> Triton
+                        <br />
+                        <br />
+                        <b class="field">Abilities</b>
+                        <ul>
+                            <li><span class="subfield">Amphibious:</span> You can breathe air and water, and you have a swimming speed of 30 feet. </li>
+                            <li><span class="subfield">Control of Air and Water:</span> A child of the sea, you can call on the magic of elemental air and water. You can cast <i>fog cloud</i> with this trait. Starting at 3rd level, you can cast <i>gust of wind</i>, and starting at 5th level, you can also cast <i>wall of water</i>. Once you cast a spell with this trait, you can't do so again until you finish a long rest. Charisma is your spellcasting ability for these spells.</li>
+                            <li><span class="subfield">Emissary of the Sea:</span> Aquatic beasts have an extraordinary affinity with your people. You can communicate simple ideas with beasts that can breathe water. They can understand the meaning of your words, though you have no special ability to understand them in return.</li>
+                            <li><span class="subfield">Guardians of the Depths:</span> Adapted to even the most extreme ocean depths, you have resistance to cold damage, and you ignore any of the drawbacks caused by a deep, underwater environment.</li>
+                        </ul>
+                    </div>
+
+                    <p class="prof"><a href="#Zieg" onclick="document.getElementById('prof-Zieg').style.display === 'block' ? document.getElementById('prof-Zieg').style.display = 'none' : document.getElementById('prof-Zieg').style.display = 'block'">Proficiencies</a></p>
+
+                    <div class="item" id="prof-Zieg">
+                       <b class="field">Skills</b>
+                        <ul>
+                            <li><span class="subfield">Insight:</span> +8</li>
+                            <li><span class="subfield">Medicine:</span> +8</li>
+                            <li><span class="subfield">Persuasion:</span> +4</li>
+                            <li><span class="subfield">Religion:</span> +4</li>
+                        </ul>
+                    </div>
+
+                    <p class="magic_items"><a href="#Zieg" onclick="document.getElementById('items-Zieg').style.display === 'block' ? document.getElementById('items-Zieg').style.display = 'none' : document.getElementById('items-Zieg').style.display = 'block'">Magical Items</a></p>
+                    <div class="item" id="items-Zieg">
                         
                         
                         <a href="#Zieg" onclick="document.getElementById('Dawnbringer').style.display === 'block' ? document.getElementById('Dawnbringer').style.display = 'none' : document.getElementById('Dawnbringer').style.display = 'block'">Dawnbringer</a>
                         
 
                         <div class="item_text" id="Dawnbringer" style="display:none;">
-                            <b>+1 Mace.</b> This gold and bronze mace is engraved with dozens of short prayers and is topped with a brilliant, golden sun, portraying the power of Pelor, the Dawn Father.<br /><br />
-                            You gain a +1 bonus to your spell attack, and can cast the <i>word of radiance</i> cleric cantrip.<br />
+                            <b>+1 Mace.</b> This gold and bronze mace is engraved with dozens of short prayers and is topped with a brilliant, golden sun, portraying the power of Pelor, the Dawn Father.
+                            <br />
+                            <br />
+                            You gain a +1 bonus to your spell attack, and can cast the <i>word of radiance</i> cleric cantrip.
+                            <br />
                             <br />
                             In addition, as a bonus action, you can speak Dawnbringer's command word to cause it to glow with a bright light in a 20 foot radius and dim light for an additional 20 feet. While glowing, Dawnbringer deals maximum damage to fiends and undead. You can dismiss this light as a free action.
                         </div>
@@ -345,7 +577,8 @@
                         
 
                         <div class="item_text" id="LuckStone" style="display:none;">
-                            This small stone is ornately fashioned into the likeness of a fox's head, with small, brilliant emeralds inset for eyes.<br />
+                            This small stone is ornately fashioned into the likeness of a fox's head, with small, brilliant emeralds inset for eyes.
+                            <br />
                             <br />
                             While attuned to this item, you get a +1 bonus to ability checks and saving throws.
                         </div>                    
