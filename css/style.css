@@ -223,12 +223,19 @@ ul {
 
 .leftnav {
 	border-radius: 10px;
+	font-size: 10pt;
 	width: 200px;
 	float: left;
 	margin: auto;
 	position: fixed;
 	background-color: #262729;
+	overflow-y:scroll;
 
+}
+
+.yr {
+	font-size: 14pt;
+	font-weight: bold;
 }
 
 .rightnav {
