@@ -26,8 +26,9 @@
 	<div class='leftnav'>
 		<h2>Session Date</h2>
 		<ul>
-            <span class="yr">2017</span>
-			<li>
+            <span class="yr" onclick="document.getElementById('2017').style.display=='block'?document.getElementById('2017').style.display='none':document.getElementById('2017').style.display = 'block'">2017</span>
+			<div id="2017" style="display:none;">
+            <li>
                 <a href="#03/18/2017">March 18th 2017</a></li>
 			<li>
                 <a href="#03/25/2017">March 25th 2017</a></li>
@@ -41,7 +42,10 @@
                 <a href="#05/06/2017">May 6th 2017</a></li>
             <li>
                 <a href="#05/20/2017">May 20th 2017</a></li>
-            <span class="yr">2018</span>
+            </div>
+            <br />
+            <span class="yr" onclick="document.getElementById('2018').style.display=='block'?document.getElementById('2018').style.display='none':document.getElementById('2018').style.display = 'block'">2018</span>
+            <div id="2018" style="display:none;">
             <li>
                 <a href="#01/13/2018">January 13th 2018</a></li>
             <li>
@@ -58,7 +62,10 @@
                 <a href="#11/11/2018">November 11th 2018</a></li>
             <li>
                 <a href="#12/02/2018">December 2nd 2018</a></li>
-            <span class="yr">2019</span>
+            </div>
+            <br />
+            <span class="yr" onclick="document.getElementById('2019').style.display=='block'?document.getElementById('2019').style.display='none':document.getElementById('2019').style.display = 'block'">2019</span>
+            <div id="2019" style="display:none;">
             <li>
                 <a href="#03/09/2019">March 9th 2019</a></li>
             <li>
@@ -73,7 +80,10 @@
                 <a href="#11/02/2019">November 2nd 2019</a></li>
             <li>
                 <a href="#11/29/2019">November 29th 2019</a></li>
-            <span class="yr">2020</span>
+            </div>
+            <br />
+            <span class="yr" onclick="document.getElementById('2020').style.display=='block'?document.getElementById('2020').style.display='none':document.getElementById('2020').style.display = 'block'">2020</span>
+            <div id="2020" style="display:none;">
             <li>
                 <a href="#02/09/2020">February 9th 2020</a></li>
             <li>
@@ -93,13 +103,16 @@
             <li>
                 <a href="#10/10/2020">October 10th 2020</a></li>
             <li><a href="#11/07/2020">November 7th 2020</a></li>
+            <li><a href="#12/12/2020">December 12th 2020</a></li>
+        </div>
 		</ul>
 	</div>
         <div class='rightnav'>
         <h2>Events</h2>
         <ul>
-            <li>
-                <a href="#The Arrival">The Arrival</a></li>
+            <li>   
+                <a href="#The Arrival" onclick="document.getElementById('TheArrival').style.display=='block'?document.getElementById('TheArrival').style.display='none':document.getElementById('TheArrival').style.display = 'block'">The Arrival</a></li>
+            <div id="TheArrival" style="display:none;">
             <ul>
                 <li>
                     <a href="#The caravans">The caravans</a></li>
@@ -110,8 +123,10 @@
                 <li>
                     <a href="#Return to Phandalin">Return to Phandalin</a></li>
             </ul>
+        </div>
             <li>
-                <a href="#Battle at Barthen's">Battle at Barthen's</a></li>
+                <a href="#Battle at Barthen's" onclick="document.getElementById('Barthens').style.display=='block'?document.getElementById('Barthens').style.display='none':document.getElementById('Barthens').style.display = 'block'">Battle at Barthen's</a></li>
+                <div id="Barthens" style="display:none;">
             <ul>
                 <li>
                     <a href="#Combat">Combat</a></li>
@@ -124,8 +139,10 @@
                 <li>
                     <a href="#The Townmaster's Hall">The Townmaster's Hall</a></li>
             </ul>
+        </div>
             <li>
-                <a href="#Tresendar Manor">Tresendar Manor</a></li>
+                <a href="#Tresendar Manor" onclick="document.getElementById('TresendarManor').style.display=='block'?document.getElementById('TresendarManor').style.display='none':document.getElementById('TresendarManor').style.display = 'block'">Tresendar Manor</a></li>
+            <div id="TresendarManor" style="display:none;">
             <ul>
                 <li>
                     <a href="#Entering the Manor">Entering the Manor</a></li>
@@ -136,8 +153,10 @@
                 <li>
                     <a href="#Return to the manor">Return to the manor</a></li>
             </ul>
+        </div>
             <li>
-                <a href="#Wyvern Tor">Wyvern Tor</a></li>
+                <a href="#Wyvern Tor" onclick="document.getElementById('Wyvern').style.display=='block'?document.getElementById('Wyvern').style.display='none':document.getElementById('Wyvern').style.display = 'block'">Wyvern Tor</a></li>
+                <div id="Wyvern" style="display:none;">
             <ul>
                 <li>
                     <a href="#The Road to Wyvern Tor">The Road to Wyvern Tor</a></li>
@@ -146,6 +165,7 @@
                 <li>
                     <a href="#The Cave">The Cave</a></li>
             </ul>
+        </div>
             <li>
                 <a href="#Descent from Wyvern Tor">Descent from Wyvern Tor</a></li>
             <li>
@@ -153,19 +173,22 @@
             <li>
                 <a href="#Cragmaw Keep">Cragmaw Keep</a></li>
             <li>
-                <a href="#Gundren Returns to Phandalin">Gundren Returns to Phandalin</a></li>
+                <a href="#Gundren Returns to Phandalin" onclick="document.getElementById('Gundren').style.display=='block'?document.getElementById('Gundren').style.display='none':document.getElementById('Gundren').style.display = 'block'">Gundren Returns to Phandalin</a></li>
+            <div id="Gundren" style="display:none;">
             <ul>
                 <li>
                     <a href="#Townmaster's Hall ">Townmaster's Hall</a></li>
                 <li>
                     <a href="#Stone Hill Inn">Stone Hill Inn</a></li>
             </ul>
+        </div>
             <li>
                 <a href="#Attack on Phandalin">Attack on Phandalin</a></li>
             <li>
                 <a href="#After the Blight Attack">After the Blight Attack</a></li>
             <li>
-                <a href="#Wave Echo Cave">Wave Echo Cave</a></li>
+                <a href="#Wave Echo Cave" onclick="document.getElementById('WaveEcho').style.display=='block'?document.getElementById('WaveEcho').style.display='none':document.getElementById('WaveEcho').style.display = 'block'">Wave Echo Cave</a></li>
+            <div id="WaveEcho" style="display:none;">
             <ul>
                 <li>
                     <a href="#Level 1">Level 1</a></li>
@@ -176,6 +199,7 @@
                 <li>
                     <a href="#After Na'Zandar">After Na'Zandar</a></li>
             </ul>
+            </div>
             <li>
                 <a href="#Tharden's Funeral">Tharden's Funeral</a></li>
             <li>
@@ -187,8 +211,9 @@
             <li>
                 <a href="#Defense of Triboar">Defense of Triboar</a></li>
             <li>
-                <a href="#Elspire ">Elspire </a></li>
-            <ul>
+                <a href="#Elspire " onclick="document.getElementById('ElspireEvents').style.display=='block'?document.getElementById('ElspireEvents').style.display='none':document.getElementById('ElspireEvents').style.display = 'block'">Elspire </a></li>            
+            <div id="ElspireEvents" style="display:none;">
+                <ul>
                 <li>
                     <a href="#The Goliath Challenger">The Goliath Challenger</a></li>
                 <li>
@@ -218,8 +243,10 @@
                 <li>
                     <a href="#Reverence Day">Reverence Day</a></li>
             </ul>
+            </div>
             <li>
-                <a href="#The Hollows">To the Hollows</a></li>
+                <a href="#The Hollows" onclick="document.getElementById('IntoHollows').style.display=='block'?document.getElementById('IntoHollows').style.display='none':document.getElementById('IntoHollows').style.display = 'block'">To the Hollows</a></li>
+            <div id="IntoHollows" style="display:none;">
             <ul>
                 <li>
                     <a href="#Breaking Rocks All Day">Breaking Rocks All Day</a></li>
@@ -228,8 +255,10 @@
                 <li>
                     <a href="#Lily of the Valley">Lily of the Valley</a></li>                
             </ul>
+        </div>
             <li>
-                <a href="#Lucav">Lucav</a></li>
+                <a href="#Lucav" onclick="document.getElementById('LucavEvents').style.display=='block'?document.getElementById('LucavEvents').style.display='none':document.getElementById('LucavEvents').style.display = 'block'">Lucav</a></li>
+            <div id="LucavEvents" style="display:none;">
             <ul>
                 <li>
                     <a href="#The House of the Rising Mold">The House of the Rising Mold</a></li>
@@ -261,7 +290,11 @@
                 <li> 
                     <a href="#Them Bones Army">Them Bones Army</a>
                 </li>
+                <li>
+                    <a href="#Exit Interview with a Vampire">Exit Interview with a Vampire</a>
+                </li>
             </ul>
+        </div>
 
             <li>
                 <a href="#Next Time">Next time...</a>
@@ -1705,14 +1738,14 @@
         <li>
             <a href="party.html#Nassirra">Nassirra</a> wants to scope out the room, and discover where the restricted section would be. The room is lit by lazily floating orbs of light along the eaves of the building. There is a stone relief of a tree symbol, emblematic of the worship of Zivilyn, and a map of the continent Arkovia. <a href="party.html#L">"L"</a> asks a priest standing at something like a customer service counter whether anything is off-limits, and is told that everything within the room is accessible to the public, but the rest of the facility is only accessible to priests. </li>
         <li>
-            <a href="party.html#Zieg">Zieg</a> goes to the public shrine to Zivilyn to pray for knowledge to help him. He makes a small donation to the shrine. <a href="party.html#Rasputin">Rasputin</a> asks <a href="party.html#Zieg">Zieg</a> for help in determining how to contain Orkus, if possible. </li>
+            <a href="party.html#Zieg">Zieg</a> goes to the public shrine to Zivilyn to pray for knowledge to help him. He makes a small donation to the shrine. <a href="party.html#Rasputin">Rasputin</a> asks <a href="party.html#Zieg">Zieg</a> for help in determining how to contain Orcus, if possible. </li>
         <li>
-            <a href="party.html#Zieg">Zieg</a> and <a href="party.html#Rasputin">Rasputin</a> try to research more about Orkus. <a href="party.html#Zieg">Zieg</a> is only able to find information we've encountered already, and finds no new information about the vessel or the ritual. He suspects more information may be forbidden knowledge, perhaps located in the restricted area. <a href="party.html#Zieg">Zieg</a> tells <a href="party.html#Rasputin">Rasputin</a> he hasn't learned anything new, and <a href="party.html#Rasputin">Rasputin</a> instead researches general processes of rebirth into a vessel. He learns that it is not well understood, and falls under the umbrella of necromancy. He reads that some vessels can contain multiple souls. Some of the information overlaps with what we learned about golemancy. Some of the things you can bind are not humanoids or intelligent creatures. Binding souls to objects can be involved in creating liches, who successfully bind their soul to another object, but experience consequences. The latter requires powerful magic to perform. <a href="party.html#Rasputin">Rasputin</a> wants to know how possession can be prevented. There are lots of stories about cases of possessions, or reasons why someone might become possessed—most of which blame the victim—but there is not much information about the process.</li>
+            <a href="party.html#Zieg">Zieg</a> and <a href="party.html#Rasputin">Rasputin</a> try to research more about Orcus. <a href="party.html#Zieg">Zieg</a> is only able to find information we've encountered already, and finds no new information about the vessel or the ritual. He suspects more information may be forbidden knowledge, perhaps located in the restricted area. <a href="party.html#Zieg">Zieg</a> tells <a href="party.html#Rasputin">Rasputin</a> he hasn't learned anything new, and <a href="party.html#Rasputin">Rasputin</a> instead researches general processes of rebirth into a vessel. He learns that it is not well understood, and falls under the umbrella of necromancy. He reads that some vessels can contain multiple souls. Some of the information overlaps with what we learned about golemancy. Some of the things you can bind are not humanoids or intelligent creatures. Binding souls to objects can be involved in creating liches, who successfully bind their soul to another object, but experience consequences. The latter requires powerful magic to perform. <a href="party.html#Rasputin">Rasputin</a> wants to know how possession can be prevented. There are lots of stories about cases of possessions, or reasons why someone might become possessed—most of which blame the victim—but there is not much information about the process.</li>
         <li>
             <a href="party.html#L">"L"</a> researches the history of the Eladrin, and mostly finds what we've already learned elsewhere, but does get some new information. One tome gives a deep dive into the culture of the Eladrin from somebody who spent some time with them. They are different from other elves in that they embrace and celebrate emotional whims, individuality, and self-expression, for both positive and negative emotions, and they display their emotions publicly. Cities exist within massive trees in the fey wild, shaped by shaman tree-shapers. The greatest such structure is a grand castle Y'fethal Dar in the kingdom of Huen'Taen. In the Fey wild, which is a parallel plane, so there should be a correspondence in the material plane.</li>
         <li>
             <a href="party.html#Nassirra">Nassirra</a> looks into the history of Lucav, and specifically the Riovannes House, but finds only a novel that dramatizes the events of the Riovannes House. She skims the novel and gets the sense that it follows the story of a dwarven woman who came to Lucav, married into the family, and killed a bunch of people. It's unclear how historically accurate the novel is. </li>
-        <li> The group reads about the Goddess Lhasra. Similar to Orkus, she is the goddess of undeath. The writings describe a fel ritual involving the blood of the recently deceased, someone who was murdered, and followers use it to bind evil creatures to their will. There are many warnings against doing it, as usually followers get killed by what they summon from outer planes. The descriptions are deliberately vague, because nobody wants anyone performing the rituals.</li>
+        <li> The group reads about the Goddess Lhasra. Similar to Orcus, she is the goddess of undeath. The writings describe a fel ritual involving the blood of the recently deceased, someone who was murdered, and followers use it to bind evil creatures to their will. There are many warnings against doing it, as usually followers get killed by what they summon from outer planes. The descriptions are deliberately vague, because nobody wants anyone performing the rituals.</li>
         <li>
             <a href="party.html#Rasputin">Rasputin</a> recalls the scale we found in <a href="npcs.html#Glasstaff">Glasstaff</a>'s manor, and decides to research the Yuan-Ti. <a href="party.html#L">"L"</a> assists him and finds the public library doesn't have much information on them. He gets a high-level synopsis about them from a travel book of some kind covering the southern reaches of Arkovia, which describes the Yuan-Ti as people who worship and take the form of snakes. There is some speculation about how to spot them; some of them look like humanoids with snake heads, others suggest they may only have snake-like eyes or features, and scales located somewhere on the body, often hidden under clothes, or they may have a cleft lower lip like a snake. It is an entire advanced civilization, but they don't generally interact with others, and don't play nice when they do. <a href="party.html#Nassirra">Nassirra</a> is familiar with them from her experience with the Fetid Tangle, and she thinks they could be the source of the psionic power the orcs were using, but we have no evidence of that. </li>
     </ul>
@@ -1754,7 +1787,7 @@
             <a href="party.html#Un-Kell">Ün-Kell</a> sees a small room with a bed inside. He lights a torch, enters, and finds several other beds and a closet on the south side of the room. Under one of the beds he finds a small wood carving. On further inspection, he realizes it is a small horse figurine, which he assumes is a clue.
         </li>
         <li>
-            <a href="party.html#Rasputin">Rasputin</a> finds a privvy in the old house, and decides to make use of it. He meditates while in the bathroom and tries to feel Orkus' presence. He feels oddly comfortable in the Riovannes House. <a href="party.html#Zieg">Zieg</a> looks under the rug and unleashes a flurry of dust, but finds nothing of interest. The floor underneath appears to be solid stone.
+            <a href="party.html#Rasputin">Rasputin</a> finds a privvy in the old house, and decides to make use of it. He meditates while in the bathroom and tries to feel Orcus' presence. He feels oddly comfortable in the Riovannes House. <a href="party.html#Zieg">Zieg</a> looks under the rug and unleashes a flurry of dust, but finds nothing of interest. The floor underneath appears to be solid stone.
         </li>
         <li>
             <a href="party.html#L">"L"</a> and <a href="party.html#Nassirra">Nassirra</a> investigate the office further, banging on walls and searching for secret rooms. The wall next to the closet sounds thin. <a href="party.html#L">"L"</a> inspects the wall more closely, and finds a small gap in the wall between wooden planks. Through the gap, he can see the lantern light cast on another wall. <a href="party.html#L">"L"</a> tells <a href="party.html#Nassirra">Nassirra</a> about the room, and she holds her ear up to the wall while <a href="party.html#L">"L"</a> tells the rest of us about what he found. <a href="party.html#Nassirra">Nassirra</a> hears a distant echo on the edge of her hearing, like the sound of water, and lets the group know about it. She also investigates a pantry adjoining the large room she had been in before, but finds nothing. <a href="party.html#Multimodal">Multimodal</a> and her badgers head to the thin wall, as does <a href="party.html#Rasputin">Rasputin</a>. The badgers scratch and pull at the wall, and we help pull the wooden panels off after they have loosened them, revealing a descending stairwell. 
@@ -2090,7 +2123,7 @@
             "M" explains he's here in pursuit of <a href="party.html#L">"L"</a>. He alludes to some secret dealings at the Silver Scabbard, suggesting the organization is not what it says it is. He explains that he knows <a href="party.html#L">"L"</a> is bound to a patron, Malkizid, who controls his power—not because <a href="party.html#L">"L"</a> trusted "M" with his secret, but because "M" is also bound to Malkizid. In fact, he says, the Silver Scabbard is lousy with mercenaries who formed pacts of power with Malkizid. He invokes the relationship they both have with Malkizid to communicate that he would prefer not to be here, but has no choice in the matter, and would prefer not to fight <a href="party.html#L">"L"</a>, but he will if he has to. Malkizid speaks to <a href="party.html#L">"L"</a> in his head to confirm "M"'s story. "M" announces that he has two important matters to attend to.
         </li>
         <li>
-            The first concerns his companion, a bone devil who works for Malkizid. The bone devil demands that <a href="party.html#L">"L"</a> turn over the Black Book of Orcus. It takes a while for <a href="party.html#L">"L"</a> to realize that he's referring to the book we found in the Riovannes House, that nearly possessed <a href="party.html#L">"L"</a>, and that he has kept hidden on his person ever since. The bone devil explains that Malkizid wants to prevent Orcus from resurrecting on the material plane, which could happen if the book fell into the wrong hands. <a href="party.html#Zieg">Zieg</a> is skeptical, recognizing the bone devil as an evil creature, and begs <a href="party.html#L">"L"</a> not to hand over the book, but ultimately <a href="party.html#L">"L"</a> has little say in the matter. He gives the book to "M".
+            The first concerns his companion, a bone devil who works for Malkizid. The bone devil demands that <a href="party.html#L">"L"</a> turn over the Black Book of Orcus. It takes a while for <a href="party.html#L">"L"</a> to realize that he's referring to the book we found in the Riovannes House, that nearly possessed <a href="party.html#L">"L"</a>, and that he has kept hidden on his person ever since. The bone devil explains that Malkizid wants to prevent <a href="lore.html#Orcus">Orcus</a> from resurrecting on the material plane, which could happen if the book fell into the wrong hands. <a href="party.html#Zieg">Zieg</a> is skeptical, recognizing the bone devil as an evil creature, and begs <a href="party.html#L">"L"</a> not to hand over the book, but ultimately <a href="party.html#L">"L"</a> has little say in the matter. He gives the book to "M".
         </li>
         <li>
             The second order of business concerns the vessel of Orcus, also known as <a href="party.html#Rasputin">Rasputin</a>. We learn that Malkizid doesn't want the vessel to enter Lucav, and that it was Malkizid who sapped <a href="party.html#L">"L"</a> of his power, making him physically ill, as we first approached the city. <a href="party.html#Multimodal">Multimodal</a> realizes the dark nature of the bond, the evil inherent in sapping life from someone in order to exert your will on them, and becomes simultaneously sympathetic towards and wary of <a href="party.html#L">"L"</a>. It is clear that Malkizid's instructions to "M" on the matter implied—but did not directly say—the use of force, and potentially killing <a href="party.html#Rasputin">Rasputin</a>, in order to do so. However, <a href="party.html#Rasputin">Rasputin</a> and <a href="party.html#L">"L"</a> both promise he will stay away from Lucav, and the rest of the party affirms, and "M" elects to take us at our word. The bone devil is not pleased, but ultimately accepts the decision.
@@ -2126,15 +2159,42 @@
 
     </li>
     <ul>
+        <li>Meanwhile, <a href="party.html#Rasputin">Rasputin</a> has a chat with the bone devil. He asks about what the bone devil eats, and the bone devil explains that he feasts on souls, but also that the economy in the hells is soul-based, so souls are both sustenance and currency to him. <a href="party.html#Rasputin">Rasputin</a> asks whether the bone devil could eat part of a soul, and the bone devil says that is not possible. He asks whether he could remove the part of his soul that <a href="lore.html#Orcus">Orcus</a> has a hold on, but learns that is not possible. The bone devil again reiterates its desire to kill <a href="party.html#Rasputin">Rasputin</a>, which would stop <a href="lore.html#Orcus">Orcus</a>'s ritual for the time being. After going back and forth on that prospect several times, <a href="party.html#Rasputin">Rasputin</a> grins at the bone devil, then <span class="combat"> casts bane on it and strikes it with his bloody bindings. The bone devil responds in turn, swiping at <a href="party.html#Rasputin">Rasputin</a> with his claws, stinging him with his bony tail, and poisoning him. <a href="party.html#Rasputin">Rasputin</a> woozily continues to attack him. It becomes clear that the bone devil is strong and will likely kill <a href="party.html#Rasputin">Rasputin</a>, who is at peace with death and so unbothered by the prospect of losing the fight. Nevertheless, he downs a healing potion and keeps fighting, until the bone devil is also weary. The bone devil grows weary and its attacks begin to miss. It realizes before long that <a href="party.html#Rasputin">Rasputin</a> is more of a threat than he seemed. Rather than risk death, the bone devil decides to fly off, abandoning its orders. </span> <a href="party.html#Rasputin">Rasputin</a> wearily drinks from his flask, and spits up blood. Before long, he falls unconcious. As he does, he drifts into the space between death and life. He sees <a href="lore.html#Orcus">Orcus</a>, who asks if <a href="party.html#Rasputin">Rasputin</a> is ready to join him. <a href="party.html#Rasputin">Rasputin</a> retorts to the offer with a hearty "fuck you". He hears another voice call out to him, softly. It's unclear who is speaking, but they reach out a blueish, gray hand to him, and <a href="party.html#Rasputin">Rasputin</a> accepts.</li>
+    </ul>
+    <ul>
         <li>The nearest pillar is to the northwest of Lucav, near the river where we spoke with Lucia. We decide to attack strategically. <span class="combat"> <a href="party.html#Zieg">Zieg</a> casts a fog cloud over the undead massed around the pillar so they cannot attack us, and then both he and <a href="party.html#L">"L"</a> launch huge fireballs at them. The fireballs kill most of the creatures. <a href="party.html#Multimodal">Multimodal</a> ruptured the ground beneath the spire to see whether that would destroy it. It appears to have done some damage to the pillar, and killed a skeletal mage, but the pillar continues moving along its trajectory. <a href="party.html#Un-Kell">Ün-Kell</a> smashes in the faces of several skeletal warriors, but his attempt to go after the pillar is thwarted by a shadowy creature who ensnares him in its tendrils. "M" helps to dispatch with the creature.</span> </li>
-        <li>With the undead cleared out, we inspect the pillar more closely. It appears to be constructed of many loose bones in a process that likely took centuries. The pillar pulses with magical energy, and is surrounded by some kind of magical field that distorts the light around it. <a href="party.html#Zieg">Zieg</a> inspects it carefully and concludes there is little we can do to physicall destroy it. That doesn't stop <a href="party.html#Un-Kell">Ün-Kell</a> from trying. He climbs up to the top of the pillar, tosses a rope around it like reins around a horse's mouth, and pulls backwards, falling to the ground in the process. While the effort made for a dramatic visual, the pillar was largely unharmed. In a hail-Mary, <a href="party.html#L">"L"</a> decides to summon a tiny hut in the path of the pillar to see whether the tiny hut, which objects are unable to pass through, can prevent the pillar from reaching Lucav. </li>
+        <li>With the undead cleared out, we inspect the pillar more closely. It appears to be constructed of many loose bones in a process that likely took centuries. The pillar pulses with magical energy, and is surrounded by some kind of magical field that distorts the light around it. <a href="party.html#Zieg">Zieg</a> inspects it carefully and concludes there is little we can do to physicall destroy it. That doesn't stop <a href="party.html#Un-Kell">Ün-Kell</a> from trying. He climbs up to the top of the pillar, tosses a rope around it like reins around a horse's mouth, and pulls backwards, falling to the ground in the process. While the effort made for a dramatic visual, the pillar was largely unharmed. In a hail-Mary, <a href="party.html#L">"L"</a> decides to summon a tiny hut in the path of the pillar to see whether the tiny hut, which objects are unable to pass through, can prevent the pillar from reaching Lucav. </span></li>
+        <ul>
+            <span id="12/12/2020"><li>As <a href="party.html#L">"L"</a> puts the finishing touches on his tiny hut, a guard calls out from atop the city wall and asks what we're doing. <a href="party.html#Zieg">Zieg</a> explains that we're trying to stop whatever is happening to the town. The guard seems hesitant, but then asks us whether we cleared out the undead around the pillar and, upon our confirmation, asks if we can help fight back the undead creatures surrounding the city. She tells us that <a href="npcs.html#Kont">Kont</a> is coordinating the efforts against the undead, warning the Lucavi knights to save ammunition until the undead climb over the wall. Knowing what we know of Kont, we're suspicious. During the conversation, <a href="party.html#Nassirra">Nassirra</a> notices a streak of blood erupt across a window of the Bastion from the inside. The guard notices it, too, and rushes off to investigate. As she runs off, <a href="party.html#Multimodal">Multimodal</a> sends her a telepathic message to warn her that <a href="npcs.html#Kont">Kont</a> is part of what's happening, and that he's a vampire. She seems flustered, unable to process the message or understand where it's come from, and continues on. </li>
+            <li> <a href="party.html#L">"L"</a> waits patiently inside it until the bone pillar moving toward Lucav along the path collides with it, and abruptly stops moving. We breathe a sigh of relief seeing that there's a way to stop the pillars, but we realize that stopping the pillars might not stop the rest of the ritual from taking place. We decide to climb the wall and join the fight, and that our odds will be better if <a href="party.html#L">"L"</a> abandons his post and lets the bone pillar proceed on its course. <a href="party.html#Nassirra">Nassirra</a> climbs the wall and secures a rope to a nearby crenel, then helps the rest of the party climb it, with assistance from <a href="party.html#Un-Kell">Ün-Kell</a> giving people a boost from the bottom of the rope before climbing himself. Once at the top of the wall, <a href="party.html#Nassirra">Nassirra</a> realizes the House of Record is not far, and is momentarily tempted to attempt to steal the book within for The Eye, but decides to wait. 
+            </li>           
+
+        </ul>
     </ul>
 
     <ul>
-        <li>Meanwhile, <a href="party.html#Rasputin">Rasputin</a> has a chat with the bone devil. He asks about what the bone devil eats, and the bone devil explains that he feasts on souls, but also that the economy in the hells is soul-based, so souls are both sustenance and currency to him. <a href="party.html#Rasputin">Rasputin</a> asks whether the bone devil could eat part of a soul, and the bone devil says that is not possible. He asks whether he could remove the part of his soul that <a href="lore.html#Orcus">Orcus</a> has a hold on, but learns that is not possible. The bone devil again reiterates its desire to kill <a href="party.html#Rasputin">Rasputin</a>, which would stop <a href="lore.html#Orcus">Orcus</a>'s ritual for the time being. After going back and forth on that prospect several times, <a href="party.html#Rasputin">Rasputin</a> grins at the bone devil, then <span class="combat"> casts bane on it and strikes it with his bloody bindings. The bone devil responds in turn, swiping at <a href="party.html#Rasputin">Rasputin</a> with his claws, stinging him with his bony tail, and poisoning him. <a href="party.html#Rasputin">Rasputin</a> woozily continues to attack him. It becomes clear that the bone devil is strong and will likely kill <a href="party.html#Rasputin">Rasputin</a>, who is at peace with death and so unbothered by the prospect of losing the fight. Nevertheless, he downs a healing potion and keeps fighting, until the bone devil is also weary. The bone devil grows weary and its attacks begin to miss. It realizes before long that <a href="party.html#Rasputin">Rasputin</a> is more of a threat than he seemed. Rather than risk death, the bone devil decides to fly off, abandoning its orders. </span> <a href="party.html#Rasputin">Rasputin</a> wearily drinks from his flask, and spits up blood. Before long, he falls unconcious. As he does, he drifts into the space between death and life. He sees <a href="lore.html#Orcus">Orcus</a>, who asks if <a href="party.html#Rasputin">Rasputin</a> is ready to join him. <a href="party.html#Rasputin">Rasputin</a> retorts to the offer with a hearty "fuck you". He hears another voice call out to him, softly. It's unclear who is speaking, but they reach out a blueish, gray hand to him, and <a href="party.html#Rasputin">Rasputin</a> accepts.</li>
+        
     </ul>
 
+</ul>
 
+<h3 id="Exit Interview with a Vampire">Exit Interview with a Vampire</h3>
+
+<ul>
+    <li><a href="party.html#Multimodal">Multimodal</a> and <a href="party.html#Nassirra">Nassirra</a> notice something big move toward the center of town in their periphery, but are unable to tell what it is exactly. As <a href="party.html#Multimodal">Multimodal</a> tracks its trail, she recognizes the residue left behind as similar to the congealed blood she encountered in the cistern in <a href="npcs.html#Kont">Kont</a>'s lair, and communicates her findings to the group. We prepare ourselves for a fight with a blood golem like the ones we encountered previously. As we approach the town, we see that the fountain at the town center is full of the substance, and standing atop the fountain is <a href="npcs.html#Kont">Artorious Kont</a>. Nearby lies a Lucavi knight being feasted on by a vampire thrall, who sadly is not long for this world. <a href="npcs.html#Kont">Kont</a> takes notice as we approach, and turns his attention to us. He makes an overconfident quip, and pulls down the hood of his cloak. We realize there's a field surrounding Lucav that is preventing the sunlight from hurting <a href="npcs.html#Kont">Kont</a> and his vampire thralls. 
+    </li>
+    <ul>
+        <li>
+
+        <span class="combat"><a href="party.html#Un-Kell">Ün-Kell</a> runs up to <a href="npcs.html#Kont">Artorious</a> and tackles him from the fountain, grappling him. In retaliation, <a href="npcs.html#Kont">Kont</a> freezes <a href="party.html#Un-Kell">Ün-Kell</a> and <a href="party.html#Nassirra">Nassirra</a> in paralysis. The vampire thralls take advantage of the paralysis to feast on <a href="party.html#Un-Kell">Ün-Kell</a>, nearly killing him in the process. <a href="party.html#Multimodal">Multimodal</a> and <a href="party.html#Zieg">Zieg</a> remove the paralysis effects from <a href="party.html#Nassirra"> and <a href="party.html#Un-Kell">Ün-Kell</a>, respectively. <a href="party.html#Zieg">Zieg</a> channels the light of Pelor and wounded the vampire thralls, killing two of them. <a href="party.html#L">"L"</a> casts a curse on <a href="npcs.html#Kont">Artorious</a>, weakening him. <a href="party.html#Nassirra">Nassirra</a>, <a href="party.html#L">"L"</a>, and "M" attack <a href="npcs.html#Kont">Artorious</a> with short swords and Eldritch blasts. <a href="party.html#Multimodal">Multimodal</a> heals <a href="party.html#Un-Kell">Ün-Kell</a>, then summons a bask of rainbow crocodiles and instructs them to bite <a href="npcs.html#Kont">Kont</a> and the vampire thralls so tightly that they cannot move. Only one of the crocodiles succeeds. <a href="party.html#Un-Kell">Ün-Kell</a> wrestles <a href="npcs.html#Kont">Kont</a>'s cloak away from him, then drinks an invisibility potion and hides with the cloak in hand. We notice that without his cloak, <a href="npcs.html#Kont">Kont</a> is considerably more wounded from radiant damage. We hear a horrifying cracking sound coming from the walls, but we can't afford to turn away from the battle in order to investigate the source. <a href="npcs.html#Kont">Kont</a> stands up and creates a sleet storm, disrupting concentration for <a href="party.html#Nassirra">Nassirra</a>, <a href="party.html#L">"L"</a>, "M", <a href="party.html#Zieg">Zieg</a>, and <a href="party.html#Multimodal">Multimodal</a>. <a href="party.html#Multimodal">Multimodal</a>, sad from the loss of her crocodile companions, dispelled the magical sleet storm in retribution. <a href="party.html#Un-Kell">Ün-Kell</a> emerged from invisibility to swing his blade down on <a href="npcs.html#Kont">Kont</a>, wounding him badly. Reading the writing on the wall, <a href="npcs.html#Kont">Kont</a> transformed into a mist and began trying to escape. <a href="party.html#Multimodal">Multimodal</a> pursued him, but was unable to land a spell attack against him. <a href="party.html#Un-Kell">Ün-Kell</a> parted the mist with his great blade, slaying <a href="npcs.html#Kont">Kont</a>.</span>
+    </li>
+    <li>
+        We take a moment to collect ourselves and realize that the horrific cracking sound was the sound of the bone pillars crashing into and subsequently destroying sections of the city walls. In the distance we can see a large, lumbering skeleton breach the wall and head toward the center of town. We recognize it as the huge skeletal general that formed from the necromanacers' lair. We patch ourselves up as best we can and prepare to do more battle. <span class="combat">The skeleton tramples <a href="party.html#Un-Kell">Ün-Kell</a>, bringing him within an inch of death, and continues toward the fountain. We notice that it appears to be a rather simple minded construct with one goal, which we probably should not allow it to complete. The construct makes an attempt to rend the souls from <a href="party.html#Multimodal">Multimodal</a>, "M", <a href="party.html#Un-Kell">Ün-Kell</a>, and <a href="party.html#Nassirra">Nassirra</a>, who stand between the construct and the fountain. <a href="party.html#L">"L"</a> hits the construct with repelling blast, away from the fountain, repeatedly. The construct swings down on <a href="party.html#Multimodal">Multimodal</a>, but she deflects the blow with a magical shield. <a href="party.html#Zieg">Zieg</a> calls out to his spirit guardians for aid, and they surround him with protective radiant light, then attack the construct. <a href="party.html#Un-Kell">Ün-Kell</a> slashes the construct in a fell swoop from underneath its torso, tearing it apart. <a href="party.html#Zieg">Zieg</a>'s spirit guardians continue to attack the coagulated, living blood in the fountain after we fell the skeleton, and we realize the blood has been taking on familiar shapes, including that of the statue of <a href="lore.html#Orcus">Orcus</a> we encountered in the necromancers' lair.</span> After some time, the blood stops moving, and it seems to be inert. The spirit guardians then take on a corporeal form and ascend into the sky, destroying the barrier that had prevented the sunlight from shining on Lucav.  </span>
+</li>
+             
+    
+    </ul>
+    <li>We decide to take refuge in the house of record before the remaining undead overrun the town. It's open and unguarded, and we don't encounter any of the priests of Zivilyn inside. <a href="party.html#Nassirra">Nassirra</a> decides to see if she can get the book she was sent to retrieve. The door that was once magical, leading to the restricted area, now appears to be a normal, unlocked door. On the other side is a room with no books at all, in which every surface is covered in a thick layer of dust. It is clear to us that no one has been in here for many years. <a href="party.html#Zieg">Zieg</a> is able to determine that the doorway had led to another dimension, not to the room on the other side of the building in the material plane. </li>
 </ul>
 
 </span>

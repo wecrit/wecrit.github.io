@@ -229,8 +229,8 @@ ul {
 	margin: auto;
 	position: fixed;
 	background-color: #262729;
-	overflow-y:scroll;
-
+	/*overflow-y:scroll; */
+	height: 80%;
 }
 
 .yr {
